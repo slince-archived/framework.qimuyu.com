@@ -5,9 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"
         />
         <link rel="shortcut icon" href="/img/favicon.ico" />
-        <title>
-            Slince - A Modern PHP Framework
-        </title>
+        <title>Slince - A Modern PHP Framework</title>
         <!-- Uikit core CSS -->
         <link href="/css/uikit.min.css" rel="stylesheet"/>
         <link rel="stylesheet" href="/css/rainbow.min.css"/>
@@ -179,7 +177,7 @@
                                 Quick Start
                             </h1>
                             <p>
-                                <pre class="home-start-code"><code class="bash" style="font-size: 20px;">$ php composer.phar create-project Slince/starter your_project 2.*</code></pre>
+                                <pre class="home-start-code"><code class="bash" style="font-size: 20px;">$ composer create-project slince/webapp [app_name] --stability=dev</code></pre>
                             </p>
                             <p class="uk-text-center">
                                 <a style="margin-top: 50px; width: 400px" class="download-button uk-button uk-button-hero uk-button-primary"
