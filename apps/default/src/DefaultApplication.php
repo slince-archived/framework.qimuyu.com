@@ -8,7 +8,8 @@ class DefaultApplication extends Application
 
     protected $name = 'Default';
 
-    protected $theme = 'default';
+    //不使用主题
+    protected $theme = false;
 
     function getRootPath()
     {
