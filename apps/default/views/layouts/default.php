@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"
         />
-        <link rel="shortcut icon" href="media/images/favicon.ico" />
+        <link rel="shortcut icon" href="/img/favicon.ico" />
         <title>
             Slince - A Modern PHP Framework
         </title>
@@ -36,14 +36,14 @@
         <nav id="header" class="uk-navbar uk-navbar-attached">
             <div class="uk-container uk-container-center">
                 <a id="big-logo" class="uk-navbar-brand uk-hidden-small" href="./">
-                    <img class="uk-margin uk-margin-remove" src="media/images/logo/Slince-logo.png"
+                    <img class="uk-margin uk-margin-remove" src="/img/Slince-logo.png"
                     title="Asukademy" alt="Asukademy">
                 </a>
                 <a href="#" class="uk-navbar-toggle uk-visible-small" data-uk-toggle="{target:'#mainmenu', cls: 'uk-hidden-small'}">
                 </a>
                 <a id="small-logo" class="uk-navbar-brand uk-navbar-center uk-visible-small"
                 href="./">
-                    <img class="uk-margin uk-margin-remove" style="max-width: 95%;" src="media/images/logo/Slince-logo.png"
+                    <img class="uk-margin uk-margin-remove" style="max-width: 95%;" src="/img/Slince-logo.png"
                     title="Asukademy" alt="Asukademy">
                 </a>
                 <ul id="mainmenu" class="uk-navbar-nav uk-float-right uk-hidden-small">
@@ -62,7 +62,7 @@
                         </a>
                     </li>
                     <li class="">
-                        <a href="https://github.com/ventoviro/Slince" target="_blank">
+                        <a href="https://github.com/slince/Slince" target="_blank">
                             <span class="menu-item-title">
                                 GitHub
                             </span>
@@ -91,7 +91,7 @@
                     </h1>
                     <div class="uk-grid" data-uk-grid-match>
                         <div class="uk-width-medium-1-3 feature-block">
-                            <img class="uk-border-rounded" src="media/images/features/lightweight.jpg"
+                            <img class="uk-border-rounded" src="/img/lightweight.jpg"
                             alt="" />
                             <h2>
                                 Lightweight and Elegant
@@ -102,7 +102,7 @@
                             </p>
                         </div>
                         <div class="uk-width-medium-1-3 feature-block">
-                            <img class="uk-border-rounded" src="media/images/features/powerful.jpg"
+                            <img class="uk-border-rounded" src="/img/powerful.jpg"
                             alt="" />
                             <h2>
                                 Easy But Powerful
@@ -114,7 +114,7 @@
                             </p>
                         </div>
                         <div class="uk-width-medium-1-3 feature-block">
-                            <img class="uk-border-rounded" src="media/images/features/convention.jpg"
+                            <img class="uk-border-rounded" src="/img/convention.jpg"
                             alt="" />
                             <h2>
                                 Convention over Config
@@ -128,7 +128,7 @@
                     </div>
                     <div class="uk-grid" data-uk-grid-match>
                         <div class="uk-width-medium-1-3 feature-block">
-                            <img class="uk-border-rounded" src="media/images/features/decoupled.jpg"
+                            <img class="uk-border-rounded" src="/img/decoupled.jpg"
                             alt="" />
                             <h2>
                                 Fully Decoupled
@@ -140,7 +140,7 @@
                             </p>
                         </div>
                         <div class="uk-width-medium-1-3 feature-block">
-                            <img class="uk-border-rounded" src="media/images/features/extendable.jpg"
+                            <img class="uk-border-rounded" src="/img/extendable.jpg"
                             alt="" />
                             <h2>
                                 Extendable
@@ -152,7 +152,7 @@
                             </p>
                         </div>
                         <div class="uk-width-medium-1-3 feature-block">
-                            <img class="uk-border-rounded" src="media/images/features/hhvm.jpg" alt=""
+                            <img class="uk-border-rounded" src="/img/hhvm.jpg" alt=""
                             />
                             <h2>
                                 HHVM Ready
@@ -179,11 +179,7 @@
                                 Quick Start
                             </h1>
                             <p>
-                                <pre class="home-start-code">
-                                    <code class="bash" style="font-size: 20px;">
-                                        $ php composer.phar create-project Slince/starter your_project 2.*
-                                    </code>
-                                </pre>
+                                <pre class="home-start-code"><code class="bash" style="font-size: 20px;">$ php composer.phar create-project Slince/starter your_project 2.*</code></pre>
                             </p>
                             <p class="uk-text-center">
                                 <a style="margin-top: 50px; width: 400px" class="download-button uk-button uk-button-hero uk-button-primary"
@@ -204,15 +200,15 @@
                             </h1>
                             <p class="uk-text-center">
                                 <a target="_blank" href="http://joomla.org">
-                                    <img style="height: 60px !important;" src="media/images/logo/joomla.png"
+                                    <img style="height: 60px !important;" src="/img/joomla.png"
                                     alt="Joomla" />
                                 </a>
                                 <a target="_blank" href="http://symfony.com">
-                                    <img style="height: 60px !important;" src="media/images/logo/symfony.png"
+                                    <img style="height: 60px !important;" src="/img/symfony.png"
                                     alt="Symfony" />
                                 </a>
                                 <a target="_blank" href="http://laravel.com/">
-                                    <img style="height: 60px !important;" src="media/images/logo/laravel.png"
+                                    <img style="height: 60px !important;" src="/img/laravel.png"
                                     alt="Laravel" />
                                 </a>
                             </p>
