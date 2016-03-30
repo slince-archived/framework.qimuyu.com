@@ -1,8 +1,6 @@
 <?php
 namespace DefaultApplication\Controller;
 
-use Slince\Application\Exception\NotFoundException;
-
 class PagesController extends AppController
 {
 
@@ -10,6 +8,10 @@ class PagesController extends AppController
      * 网站首页
      */
     function index()
+    {}
+
+    function commingSoon()
     {
+        $this->render('comming_soon', false);
     }
 }

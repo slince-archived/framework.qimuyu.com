@@ -9,6 +9,5 @@ return function(RouteCollection $routes) {
     //网站首页
     $routes->http('/', 'Default@PagesController@index');
     //单页
-    $routes->http('/{id}', 'Default@PagesController@show')
-        ->setRequirement('id', '\d+');
+    $routes->http('/documents', 'Default@PagesController@commingSoon');
 };

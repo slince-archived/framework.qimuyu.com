@@ -10,7 +10,7 @@ return [
             'host' => 'localhost',
             'username' => 'root',
             'password' => '',
-            'database' => 'slcms',
+            'database' => 'qimuyu',
             'encoding' => 'utf8',
             'timezone' => '+8:00',
             'cacheMetadata' => true,
