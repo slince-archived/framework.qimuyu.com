@@ -34,14 +34,14 @@
         <nav id="header" class="uk-navbar uk-navbar-attached">
             <div class="uk-container uk-container-center">
                 <a id="big-logo" class="uk-navbar-brand uk-hidden-small" href="./">
-                    <img class="uk-margin uk-margin-remove" src="/img/Slince-logo.png"
+                    <img class="uk-margin uk-margin-remove" src="/img/slince-logo.png"
                     title="Asukademy" alt="Asukademy">
                 </a>
                 <a href="#" class="uk-navbar-toggle uk-visible-small" data-uk-toggle="{target:'#mainmenu', cls: 'uk-hidden-small'}">
                 </a>
                 <a id="small-logo" class="uk-navbar-brand uk-navbar-center uk-visible-small"
                 href="./">
-                    <img class="uk-margin uk-margin-remove" style="max-width: 95%;" src="/img/Slince-logo.png"
+                    <img class="uk-margin uk-margin-remove" style="max-width: 95%;" src="/img/slince-logo.png"
                     title="Asukademy" alt="Asukademy">
                 </a>
                 <ul id="mainmenu" class="uk-navbar-nav uk-float-right uk-hidden-small">
@@ -219,7 +219,7 @@
             <div class="uk-container uk-container-center uk-text-center">
                 <div class="footer-logo">
                     <a href="#" data-uk-smooth-scroll>
-                        <img src="/img/Slince-logo.png" width="150" alt="Footer LOGO">
+                        <img src="/img/slince-logo.png" width="150" alt="Footer LOGO">
                     </a>
                 </div>
                 <p class="uk-text-center social-buttons">
