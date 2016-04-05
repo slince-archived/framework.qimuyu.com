@@ -8,5 +8,5 @@ class DefaultApplication extends Application
 
     protected $name = 'Default';
 
-    protected $theme = 'default';
+    protected $theme = false;
 }
