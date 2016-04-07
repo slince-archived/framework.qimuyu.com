@@ -225,9 +225,9 @@
                 <p class="uk-text-center social-buttons">
                     <a target="_blank" class="uk-icon-button uk-icon-facebook" href="javascript: void(0);">
                     </a>
-                    <a target="_blank" class="uk-icon-button uk-icon-github" href="https://github.com/ventoviro/Slince">
+                    <a target="_blank" class="uk-icon-button uk-icon-github" href="https://github.com/slince/webapp">
                     </a>
-                    <a class="uk-icon-button uk-icon-envelope-o" href="mailto:asika32764@gmail.com">
+                    <a class="uk-icon-button uk-icon-envelope-o" href="mailto:taosikai@yeah.net">
                     </a>
                 </p>
                 <p>
