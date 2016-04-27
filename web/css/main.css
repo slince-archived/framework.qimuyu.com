@@ -113,7 +113,6 @@ dl dd {
   font-family: 'Roboto', 'LiHei Pro', 'Heiti TC', 'Xin6', '微軟正黑體', sans-serif;
   height: 70px;
   font-size: 16px;
-  text-transform: uppercase;
   padding-top: 25px;
 }
 #header span.menu-item-title {
@@ -122,7 +121,6 @@ dl dd {
 }
 #header span.menu-item-sub-title {
   font-size: 80%;
-  text-transform: uppercase;
   color: #A0A0A0;
   display: block;
   line-height: 140%;

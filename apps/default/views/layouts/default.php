@@ -2,8 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"
-        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="shortcut icon" href="/img/favicon.ico" />
         <title>Slince - A Modern PHP Framework</title>
         <!-- Uikit core CSS -->
@@ -13,7 +12,7 @@
         <link href="/css/main.css" rel="stylesheet"/>
         <meta name="description" content="A Modern PHP Framework">
         <meta name="generator" content="The Time Machine">
-        <meta property="og:image" content="https://cloud.githubusercontent.com/assets/1639206/5580385/1787acf4-9085-11e4-8089-a214dd2599af.jpg">
+        <meta property="og:image" content="/img/slince-logo.png">
         <meta property="og:title" content="Slince - A Modern PHP Framework"/>
         <meta property="og:site_name" content="Slince Framework"/>
         <meta property="og:description" content="A Modern PHP Framework"/>
@@ -35,7 +34,7 @@
             <div class="uk-container uk-container-center">
                 <a id="big-logo" class="uk-navbar-brand uk-hidden-small" href="./">
                     <img class="uk-margin uk-margin-remove" src="/img/slince-logo.png"
-                    title="Asukademy" alt="Asukademy">
+                    title="Slince" alt="Slince">
                 </a>
                 <a href="#" class="uk-navbar-toggle uk-visible-small" data-uk-toggle="{target:'#mainmenu', cls: 'uk-hidden-small'}">
                 </a>
@@ -46,21 +45,17 @@
                 </a>
                 <ul id="mainmenu" class="uk-navbar-nav uk-float-right uk-hidden-small">
                     <li class="">
-                        <a href="./about/">
-                            <span class="menu-item-title">
-                                About
-                            </span>
+                        <a href="/">
+                            <span class="menu-item-title">首页</span>
                         </a>
                     </li>
                     <li class="">
-                        <a href="./documentation/start/getting-started.html">
-                            <span class="menu-item-title">
-                                Documentation
-                            </span>
+                        <a href="/docs">
+                            <span class="menu-item-title">文档</span>
                         </a>
                     </li>
                     <li class="">
-                        <a href="https://github.com/slince/Slince" target="_blank">
+                        <a href="https://github.com/slince/slince" target="_blank">
                             <span class="menu-item-title">
                                 GitHub
                             </span>
@@ -89,65 +84,31 @@
                     </h1>
                     <div class="uk-grid" data-uk-grid-match>
                         <div class="uk-width-medium-1-3 feature-block">
-                            <img class="uk-border-rounded" src="/img/lightweight.jpg"
-                            alt="" />
-                            <h2>
-                                Lightweight and Elegant
-                            </h2>
-                            <p>
-                                Slince is very fast -- we use many design patterns like lazy loading
-                                and caching to make sure we reach high performance.
-                            </p>
+                            <img class="uk-border-rounded" src="/img/lightweight.jpg" alt=""/>
+                            <h2>轻巧优雅</h2>
+                            <p>Slince非常的快速 -- 我们使用了很多设计，比如lazy loading和缓存确保可以达到较快的表现</p>
                         </div>
                         <div class="uk-width-medium-1-3 feature-block">
-                            <img class="uk-border-rounded" src="/img/powerful.jpg"
-                            alt="" />
-                            <h2>
-                                Easy But Powerful
-                            </h2>
-                            <p>
-                                We know that learning a new framework is very hard and takes a long time,
-                                so Slince's interface is very simple and semantic, and will not cause
-                                developers pain.
-                            </p>
+                            <img class="uk-border-rounded" src="/img/powerful.jpg" alt="" />
+                            <h2>简单但强大</h2>
+                            <p>我们知道学习一门新框架是很困难且耗时的；所以slince的接口非常的简单</p>
                         </div>
                         <div class="uk-width-medium-1-3 feature-block">
-                            <img class="uk-border-rounded" src="/img/convention.jpg"
-                            alt="" />
-                            <h2>
-                                Convention over Config
-                            </h2>
-                            <p>
-                                Slince tries to reduce configuration work. It uses minimal config
-                                to extend the whole system. But you can still override every part of Slince
-                                to customize your application.
-                            </p>
+                            <img class="uk-border-rounded" src="/img/convention.jpg" alt="" />
+                            <h2>约定优于配置</h2>
+                            <p>Slince在尽可能的减少配置工作；所以只需要很少的配置便可以驱动整个系统；但是你仍然可以自定义每一个模块</p>
                         </div>
                     </div>
                     <div class="uk-grid" data-uk-grid-match>
                         <div class="uk-width-medium-1-3 feature-block">
-                            <img class="uk-border-rounded" src="/img/decoupled.jpg"
-                            alt="" />
-                            <h2>
-                                Fully Decoupled
-                            </h2>
-                            <p>
-                                Slince packages are very independent. We are trying to ensure every
-                                package does not depend on too many other packages. You can easily override
-                                Slince's behavior without worrying about dependencies.
-                            </p>
+                            <img class="uk-border-rounded" src="/img/decoupled.jpg" alt="" />
+                            <h2>完全解耦</h2>
+                            <p>Slince的每一个组件都是独立的；我们尽量让每个组件都不要依赖太多其他组件</p>
                         </div>
                         <div class="uk-width-medium-1-3 feature-block">
-                            <img class="uk-border-rounded" src="/img/extendable.jpg"
-                            alt="" />
-                            <h2>
-                                Extendable
-                            </h2>
-                            <p>
-                                The Slince package system (like Symfony bundles) helps us create complex
-                                applications for the enterprise. You can also create your package as an
-                                extension to let other developers install it.
-                            </p>
+                            <img class="uk-border-rounded" src="/img/extendable.jpg" alt="" />
+                            <h2>可扩展</h2>
+                            <p>Slince的application是可以独立的；你可以创建自己自己的application并让其他开发者使用</p>
                         </div>
                         <div class="uk-width-medium-1-3 feature-block">
                             <img class="uk-border-rounded" src="/img/hhvm.jpg" alt=""
