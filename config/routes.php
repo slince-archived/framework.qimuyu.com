@@ -9,4 +9,5 @@ return function(RouteCollection $routes) {
     $routes->http('/', 'Default@PagesController@index');
     //单页
     $routes->http('/documents', 'Default@PagesController@commingSoon');
+    $routes->http('/features', 'Default@PagesController@commingSoon');
 };

@@ -12,6 +12,6 @@ class PagesController extends AppController
 
     function commingSoon()
     {
-        $this->render('comming_soon', false);
+//        $this->render('comming_soon', false);
     }
 }

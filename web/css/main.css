@@ -4,7 +4,7 @@
 @import url(http://fonts.useso.com/css?family=Open+Sans:300,400,500);
 html,
 body {
-  font-family: 'Roboto', /*'Xin4',*/ 'Heiti TC', '微軟正黑體', sans-serif;
+  font-family: "Microsoft YaHei", 'Roboto', /*'Xin4',*/ 'Heiti TC', '微軟正黑體', sans-serif;
   font-size: 17px;
   line-height: 175%;
 }
@@ -14,7 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Adobe 繁黑體 Std', 'AdobeFanHeitiStd-Bold', 'LiHei Pro', "Xin6", '微軟正黑體', sans-serif;
+  font-family: "Microsoft YaHei", 'Open Sans', 'Adobe 繁黑體 Std', 'AdobeFanHeitiStd-Bold', 'LiHei Pro', "Xin6", '微軟正黑體', sans-serif;
   margin-bottom: 1em;
   line-height: 120%;
 }
@@ -110,7 +110,7 @@ dl dd {
   padding: 10px;
 }
 #header .uk-navbar-nav > li > a {
-  font-family: 'Roboto', 'LiHei Pro', 'Heiti TC', 'Xin6', '微軟正黑體', sans-serif;
+  font-family: "Microsoft YaHei", 'Roboto', 'LiHei Pro', 'Heiti TC', 'Xin6', '微軟正黑體', sans-serif;
   height: 70px;
   font-size: 16px;
   padding-top: 25px;
