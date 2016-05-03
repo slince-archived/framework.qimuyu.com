@@ -52,7 +52,7 @@
                         </a>
                     </li>
                     <li class="">
-                        <a href="https://github.com/slince/slince" target="_blank">
+                        <a href="https://github.com/slince/application" target="_blank">
                             <span class="menu-item-title">
                                 GitHub
                             </span>
