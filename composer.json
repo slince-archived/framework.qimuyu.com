@@ -2,16 +2,6 @@
     "name": "slince/webapp",
     "description": "Slince skeleton webapp",
     "type": "project",
-    "require": {
-        "php": ">=5.5.9",
-        "slince/application": "dev-master@dev"
-    },
-    "autoload": {
-        "psr-4": {
-            "App\\": "./src",
-            "DefaultApplication\\": "./apps/default/src"
-        }
-    },
     "license": "Apache-2.0",
     "authors": [
         {
@@ -19,8 +9,18 @@
             "email": "taosikai@yeah.net"
         }
     ],
+    "require": {
+        "php": ">=5.5.9",
+        "slince/slince": "*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "./src",
+            "DefaultApplication\\": "./apps/default/src"
+        }
+    },
     "config": {
         "bin-dir": "bin"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }

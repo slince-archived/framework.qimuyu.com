@@ -14,4 +14,9 @@ class PagesController extends AppController
     {
 //        $this->render('comming_soon', false);
     }
+
+    function show()
+    {
+        
+    }
 }
