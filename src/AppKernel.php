@@ -3,7 +3,6 @@ namespace App;
 
 use Slince\Application\Kernel;
 use Slince\Routing\RouteBuilder;
-use Slince\Routing\RouteCollection;
 use Slince\Di\Container;
 use Slince\Event\Dispatcher;
 use Slince\Config\Config;

@@ -1,0 +1,36 @@
+{
+    "description": "文档",
+    "locale": "zh_CN",
+    "catalog": [
+        {
+            "name": "简介",
+            "slug": "introduce",
+            "children": [
+                {
+                  "name": "简介",
+                  "slug": "introduce",
+                  "file": "/about/introduce.md"
+                },
+                {
+                  "name": "安装",
+                  "slug": "/about/introduce.md#install"
+                }
+            ]
+        },
+        {
+          "name": "简介",
+          "slug": "introduce",
+          "children": [
+            {
+              "name": "简介",
+              "slug": "introduce",
+              "file": "/introduce/introduce.md"
+            },
+            {
+              "name": "安装",
+              "slug": "install.md"
+            }
+          ]
+        }
+    ]
+}
